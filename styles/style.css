@@ -145,9 +145,9 @@
   font-family: var(--PressStart2P);
   font-size: 14px;
   text-shadow:
-    -1px 0 var(--background-color), 
-    0 1px var(--background-color), 
-    1px 0 var(--background-color), 
+    -1px 0 var(--background-color),
+    0 1px var(--background-color),
+    1px 0 var(--background-color),
     0 -1px var(--background-color);
   mix-blend-mode: hard-light;
 }
@@ -242,7 +242,7 @@
 }
 
 button.button:focus-visible {
-  box-shadow: 2px 2px var(--accent-color);  
+  box-shadow: 2px 2px var(--accent-color);
   outline: none;
 }
 
