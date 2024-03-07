@@ -257,7 +257,6 @@ button.button:focus-visible {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  width: clamp(19.375rem, 18.7368rem + 2.723vw, 21.1875rem);
   width: 339px;
   margin: 0 auto;
   border: 2px solid var(--accent-color);
