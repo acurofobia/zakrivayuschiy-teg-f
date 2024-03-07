@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --Inter: Inter-Variable, sans-serif;
+  --PressStart2P: PressStart2P, sans-serif;
+  --font-weight: 400;
+  --font-heading-weight: 700;
+  --background-color: #fff;
+  --accent-color: #000;
+  --repeating-linear-gradient-color: #d3d3d3;
+  --linear-gradient-color-main: #e7e7e7;
+  --linear-gradient-color-second: #1a1a1a;
+  --sparks-color: #FF0000;
+  --background-image: 
+    repeating-linear-gradient(transparent 2px, var(--repeating-linear-gradient-color) 2px, var(--repeating-linear-gradient-color) 4px, transparent 4px, transparent 6px),
+    repeating-linear-gradient(90deg, transparent 2px, var(--repeating-linear-gradient-color) 2px, var(--repeating-linear-gradient-color) 4px, transparent 4px, transparent 6px),
+    linear-gradient(var(--linear-gradient-color-main) 0.01%, var(--linear-gradient-color-second) 100%);
+}
