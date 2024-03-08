@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --Inter: Inter-Variable, sans-serif;
-  --PressStart2P: PressStart2P, sans-serif;
+  --PressStart2P: PressStart2P, fantasy;
   --font-weight: 400;
   --font-heading-weight: 700;
   --background-color: #fff;

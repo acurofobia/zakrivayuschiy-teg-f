@@ -20,8 +20,8 @@
 
 <body class="page">
   <header class="header content-limiter">
-    <h1 class="header-main">&lt;/HTML&gt;</h1>
-    <h2 class="header-second">закрывающий тег</h2>
+    <a class="header-main">&lt;/HTML&gt;</a>
+    <h1 class="header-second">закрывающий тег</h1>
     <nav class="theme-menu header__theme-menu">
       <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
       <ul class="theme-menu__list">
@@ -408,12 +408,14 @@
         <svg class="floppy-dialog" viewBox="0 0 39 39">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
-        <h2 class="dialog-heading">Вставьте дискету, чтобы продолжить</h2>
+        <p class="dialog-heading">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button onclick="window['dialog-id'].close()" type="button" class="dialog-button button">
-        <span class="button__text">ОК
-        </span>
-      </button>
+      <form class="button-form" method="dialog">
+        <button onclick="window['dialog-id'].close()" type="button" class="dialog-button button">
+          <span class="button__text">ОК
+          </span>
+        </button>
+      </form>
     </dialog>
   </main>
   <script src="./scripts/like.js"></script>
