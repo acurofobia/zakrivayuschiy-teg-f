@@ -106,8 +106,8 @@
 
 .content {
   display: grid;
-  gap: 50px;
-  padding-bottom: 103px;
+  gap: 51px;
+  padding-bottom: 100px;
 }
 
 .card {
